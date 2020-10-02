@@ -7,7 +7,7 @@ https://docs.google.com/document/d/1eAGom2X6gw9l170zg-SZIx6aXIlW9JAzPA4daDHzbRo/
 
 Vi bygger klasserne:
 - Dirt
-- Water
+- Fluid
 - Wood
 - Flower
 - Player

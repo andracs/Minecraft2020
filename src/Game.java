@@ -10,6 +10,7 @@ public class Game {
     static void start(){
         System.out.println("Spillet starter.");
 
+        Weather.changeWeather();
         Sheep martha = new Sheep();
 
         for (int i = 0; i < 4; i++) {
