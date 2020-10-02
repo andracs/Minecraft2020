@@ -7,8 +7,13 @@
 
 public class Dirt {
 
-    public Dirt() {
+    private String dirtType;  //Type - 1 dirt  YAGNI!
+    private String skin = "dirt.png";
+    private boolean canBreak = true;
+
+    Dirt() {
         System.out.println(Game.visNytObjekt("dirt"));
     }
 
-}
+
+    }
