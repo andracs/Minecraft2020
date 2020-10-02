@@ -1,4 +1,4 @@
-# Lidt spas med Minecraft (undervisning)
+# Programmere Minecraft fra bunden 
 
 Vi bygger klasserne:
 - Dirt
