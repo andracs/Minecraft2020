@@ -8,7 +8,7 @@
 public class Dirt {
 
     public Dirt() {
-        System.out.println("En dirt er tilføjet til mappen.");
+        System.out.println(Game.visNytObjekt("dirt"));
     }
 
 }

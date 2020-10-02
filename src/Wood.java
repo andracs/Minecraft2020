@@ -8,6 +8,6 @@
 public class Wood {
 
     Wood() {
-        System.out.println(Game.visObjekt("wood"));
+        System.out.println(Game.visNytObjekt("wood"));
     }
 }

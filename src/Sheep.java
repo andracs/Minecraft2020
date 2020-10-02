@@ -12,7 +12,7 @@ public class Sheep {
     Feet foot1, foot2, foot3, foot4;
 
     Sheep() {
-        System.out.println("En sheep er tilføjet til mappen");
+        System.out.println(Game.visNytObjekt("sheep"));
     }
 
 }

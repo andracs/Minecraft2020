@@ -24,7 +24,7 @@ public class Game {
 
     }
 
-    static String visObjekt(String navn) {
+    static String visNytObjekt(String navn) {
         return "En " + navn + " er tilføjet til kortet.";
     }
 
