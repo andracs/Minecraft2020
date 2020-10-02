@@ -7,10 +7,11 @@
 
 public class Game {
 
-    static void start(){
+    static void start() throws InterruptedException {
         System.out.println("Spillet starter.");
 
-        Weather.changeWeather();
+
+        Obsidian.obsidianCreate();
         Sheep martha = new Sheep();
 
         for (int i = 0; i < 4; i++) {
@@ -23,7 +24,11 @@ public class Game {
         Wood wood4 = new Wood();
 
         wood1.setWoodType("Oak");
-
+        wood1.hit(2);
+        wood1.hit(3);
+        wood1.hit(3);
+        wood1.hit(2);
+        Weather.changeWeather();
     }
 
     static String visNytObjekt(String navn) {

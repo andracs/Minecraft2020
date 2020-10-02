@@ -7,7 +7,7 @@
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         System.out.println("*********** Minecraft 0.1 *********** ");
         System.out.println("Game menu");
         Game.start();
