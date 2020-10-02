@@ -12,15 +12,16 @@ public class Game {
 
         Sheep martha = new Sheep();
 
-        Dirt dirt1 = new Dirt();
-        Dirt dirt2 = new Dirt();
-        Dirt dirt3 = new Dirt();
-        Dirt dirt4 = new Dirt();
+        for (int i = 0; i < 4; i++) {
+            Dirt dirt = new Dirt();
+        }
 
         Wood wood1 = new Wood();
         Wood wood2 = new Wood();
         Wood wood3 = new Wood();
         Wood wood4 = new Wood();
+
+        wood1.setWoodType("Oak");
 
     }
 
