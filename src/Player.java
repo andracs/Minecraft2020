@@ -6,4 +6,7 @@
  */
 
 public class Player {
+
+    Stats egenskaber;
+
 }

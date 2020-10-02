@@ -7,6 +7,7 @@
 
 public class Sheep {
 
+    Stats stats = new Stats();
     Head head;
     Body body;
     Feet foot1, foot2, foot3, foot4;

@@ -23,6 +23,31 @@ public class Game {
 
         wood1.setWoodType("Oak");
 
+        Player steve = new Player();
+        //steve.egenskaber.gender = "Æææh";
+        //steve.egenskaber.level = 100;
+
+        Sheep får = new Sheep();
+        får.stats.gender = "Dreng";
+        får.stats.hp = 10;
+
+        Flower flower1 = new Flower();
+        System.out.println(flower1.size);
+        flower1.grow();
+        System.out.println(flower1.size);
+        flower1.grow();
+        System.out.println(flower1.size);
+        flower1.wither();
+        System.out.println(flower1.size);
+        flower1.wither();
+        System.out.println(flower1.size);
+        flower1.wither();
+        System.out.println(flower1.size);
+
+
+
+        // 3d verden
+        // x,y,z = Flower
     }
 
     static String visNytObjekt(String navn) {
