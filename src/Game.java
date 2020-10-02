@@ -16,12 +16,14 @@ public class Game {
             Dirt dirt = new Dirt();
         }
 
-        Wood wood1 = new Wood();
-        Wood wood2 = new Wood();
-        Wood wood3 = new Wood();
-        Wood wood4 = new Wood();
+        for (int i = 0; i < 4; i++) {
+            Wood wood = new Wood();
+            wood.setWoodType("Oak");
+        }
+        for (int i = 0; i < 2; i++) {
+            Flower flower = new Flower();
+        }
 
-        wood1.setWoodType("Oak");
 
     }
 
