@@ -1,4 +1,6 @@
-# Programmere Minecraft fra bunden 
+![Minecraft](https://raw.githubusercontent.com/andracs/Minecraft2020/master/GamePic.png)
+
+# Vi programmerer Minecraft fra bunden 
 
 Vi bygger klasserne:
 - Dirt
