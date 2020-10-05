@@ -13,4 +13,7 @@ public class Stats {
     String gender;
     String location;
     int creaturesKilled;
+    int x;
+    int y;
+    int z;
 }

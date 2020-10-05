@@ -24,7 +24,7 @@ public class Wood {
         if (woodType.equals("Oak") || woodType.equals("Dark Oak") || woodType.equals("Birch"))
         {this.woodType = woodType;}
         else {
-            System.out.println("Fuck dig hacker. Det bliver oak alligevel.");
+            System.out.println("Forkert woodtype. Det bliver oak alligevel.");
             this.woodType = "Oak";
         }
     }

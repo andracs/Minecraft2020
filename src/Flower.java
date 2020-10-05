@@ -18,6 +18,7 @@ public class Flower {
 
     Flower() {
         System.out.println(Game.visNytObjekt("flower"));
+        show();
     }
 
     public String getFlowerType() {
@@ -44,6 +45,30 @@ public class Flower {
         if (size<=0) System.out.println("Planten er kaput.");
         else System.out.println("Planten visner.");
         size = size - 1;
+    }
+
+    void show() {
+        System.out.println();
+        System.out.println("             .-.'  '.-.\n" +
+                "          .-(   \\  /   )-.\n" +
+                "         /   '..oOOo..'   \\\n" +
+                " ,       \\.--.oOOOOOOo.--./\n" +
+                " |\\  ,   (   :oOOOOOOo:   )\n" +
+                "_\\.\\/|   /'--'oOOOOOOo'--'\\\n" +
+                "'-.. ;/| \\   .''oOOo''.   /\n" +
+                ".--`'. :/|'-(   /  \\   )-'\n" +
+                " '--. `. / //'-'.__.'-;\n" +
+                "   `'-,_';//      ,  /|\n" +
+                "        '((       |\\/./_\n" +
+                "          \\\\  . |\\; ..-'\n" +
+                "           \\\\ |\\: .'`--.\n" +
+                "            \\\\, .' .--'\n" +
+                "             ))'_,-'`\n" +
+                "            //-'\n" +
+                "           // \n" +
+                "          //\n" +
+                "         |/");
+        System.out.println();
     }
 
 
